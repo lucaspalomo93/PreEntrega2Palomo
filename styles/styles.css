@@ -8,7 +8,12 @@ a {
 }
 
 a:hover {
-    color: rgb(237, 237, 130);
+    color: #967E76;
+}
+
+.card-body a {
+    
+    color: black;
 }
 
 .card-body a {
@@ -23,6 +28,7 @@ a:hover {
 
 .card-body a:hover {
     background-color: black;
+    color: rgb(237, 237, 130);
 }
 
 .card-title {
