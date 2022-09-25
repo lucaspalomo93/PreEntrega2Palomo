@@ -30,6 +30,19 @@ a:hover {
     justify-content: center;
 }
 
+.banner {
+    background-image: url(../images/banner.png);
+    height: 15rem;
+}
+
+.banner h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+
 @media only screen and (max-width: 765px) {
     a{
         display: block;
