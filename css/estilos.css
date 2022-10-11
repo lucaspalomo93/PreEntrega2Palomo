@@ -78,12 +78,18 @@ a:hover {
 }
 
 /* line 10, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
+.market-card {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 15, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .market-prod {
   margin-bottom: 2rem;
   transition: all 1.2s;
 }
 
-/* line 14, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
+/* line 19, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .market-prod:hover {
   transform: scale(1.1, 1.1);
 }

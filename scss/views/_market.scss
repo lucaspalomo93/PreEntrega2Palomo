@@ -7,6 +7,11 @@
     }
 }
 
+.market-card {
+    display: flex;
+    justify-content: center;
+}
+
 .market-prod {
     margin-bottom: 2rem;
     transition: all 1.2s;
