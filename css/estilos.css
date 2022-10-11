@@ -1,0 +1,143 @@
+/* HEADER */
+/* line 2, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+  font-family: 'Roboto', sans-serif;
+  transition: all 0.3s;
+}
+
+/* line 10, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+a:hover {
+  color: #967E76;
+}
+
+/* line 14, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.card-body a {
+  display: block;
+  font-size: 1rem;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  color: black;
+  background-color: rgba(188, 189, 190, 0.568);
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+/* line 25, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.card-body a:hover {
+  background-color: black;
+  color: #eded82;
+}
+
+/* line 30, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.card-title {
+  display: flex;
+  justify-content: center;
+}
+
+/* line 35, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.banner {
+  background-image: url(../images/banner.png);
+  height: 15rem;
+}
+
+/* line 40, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.banner h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+/* CIERRA INDEX */
+/* MENU */
+/* line 50, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.food-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+/* line 57, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.food-title h2 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* CIERRA MENU */
+/* MARKET */
+/* line 67, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.card {
+  height: 100%;
+}
+
+/* line 72, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.card img {
+  height: 10rem;
+}
+
+/* line 76, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.market-prod {
+  margin-bottom: 2rem;
+  transition: all 1.2s;
+}
+
+/* line 81, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.market-prod:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* CIERRA MARKET */
+/* RESERVAS */
+/* line 89, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.submit-button {
+  width: 100%;
+  color: black;
+  font-weight: bold;
+  background-color: rgba(188, 189, 190, 0.568);
+  border: none;
+  transition: all 0.5s;
+  padding: 0.5rem 1rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+}
+
+/* line 101, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+.submit-button:hover {
+  background-color: black;
+  color: #eded82;
+}
+
+/* line 106, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+label {
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+}
+
+@media only screen and (max-width: 765px) {
+  /* line 116, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  /* line 122, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  .food-text {
+    justify-content: center;
+  }
+  /* line 126, ../../Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  .col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
