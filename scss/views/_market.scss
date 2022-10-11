@@ -1,0 +1,22 @@
+.card {
+    height: 100%;
+
+    img {
+        height: 10rem;
+
+    }
+}
+
+.market-card {
+    display: flex;
+    justify-content: center;
+}
+
+.market-prod {
+    margin-bottom: 2rem;
+    transition: all 1.2s;
+
+    &:hover {
+        transform: scale(1.1, 1.1);
+    }
+}
