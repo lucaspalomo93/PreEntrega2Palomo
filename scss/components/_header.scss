@@ -1,0 +1,13 @@
+@import '../utilities/variables';
+
+a {
+    text-decoration: none;
+    color: $color-negro;
+    font-size: 2rem;
+    font-family: $fuente-enlaces-header;
+    transition: all 0.3s;
+
+    &:hover {
+        color: $color-marron-hover;
+    }
+}

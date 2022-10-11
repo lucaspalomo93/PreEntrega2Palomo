@@ -1,59 +1,58 @@
-/* HEADER */
-/* line 2, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 3, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/components/_header.scss */
 a {
   text-decoration: none;
-  color: black;
+  color: #000000;
   font-size: 2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   transition: all 0.3s;
 }
 
-/* line 10, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 10, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/components/_header.scss */
 a:hover {
   color: #967E76;
 }
 
-/* line 14, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 4, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-body a {
   display: block;
   font-size: 1rem;
   text-align: center;
   padding: 0.5rem 1rem;
-  color: black;
+  color: #000000;
   background-color: rgba(188, 189, 190, 0.568);
   transition: all 0.3s;
   font-weight: bold;
 }
 
-/* line 25, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 15, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-body a:hover {
-  background-color: black;
+  background-color: #000000;
   color: #eded82;
 }
 
-/* line 30, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 22, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-title {
   display: flex;
   justify-content: center;
 }
 
-/* line 35, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 27, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .banner {
-  background-image: url(../images/banner.png);
+  background-image: url(/images/banner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 15rem;
 }
 
-/* line 40, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 33, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .banner h1 {
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
-/* CIERRA INDEX */
-/* MENU */
-/* line 50, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 3, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_menu.scss */
 .food-text {
   display: flex;
   justify-content: center;
@@ -61,60 +60,56 @@ a:hover {
   font-size: 1.5rem;
 }
 
-/* line 57, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 11, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_menu.scss */
 .food-title h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 3rem;
   font-weight: bold;
 }
 
-/* CIERRA MENU */
-/* MARKET */
-/* line 67, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 1, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .card {
   height: 100%;
 }
 
-/* line 72, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 4, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .card img {
   height: 10rem;
 }
 
-/* line 76, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 10, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .market-prod {
   margin-bottom: 2rem;
   transition: all 1.2s;
 }
 
-/* line 81, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 14, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_market.scss */
 .market-prod:hover {
   transform: scale(1.1, 1.1);
 }
 
-/* CIERRA MARKET */
-/* RESERVAS */
-/* line 89, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 3, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_reservas.scss */
 .submit-button {
   width: 100%;
-  color: black;
+  color: #000000;
   font-weight: bold;
   background-color: rgba(188, 189, 190, 0.568);
   border: none;
   transition: all 0.5s;
   padding: 0.5rem 1rem;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 2rem;
 }
 
-/* line 101, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 14, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_reservas.scss */
 .submit-button:hover {
-  background-color: black;
+  background-color: #000000;
   color: #eded82;
 }
 
-/* line 106, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+/* line 20, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_reservas.scss */
 label {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: bold;
   font-size: 2rem;
   display: block;
@@ -122,17 +117,17 @@ label {
 }
 
 @media only screen and (max-width: 765px) {
-  /* line 116, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  /* line 2, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
   a {
     display: block;
     width: 100%;
     text-align: center;
   }
-  /* line 122, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  /* line 8, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
   .food-text {
     justify-content: center;
   }
-  /* line 126, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/estilos.scss */
+  /* line 12, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
   .col {
     display: flex;
     justify-content: center;
