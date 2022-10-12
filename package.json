@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lucaspalomo93/PreEntrega2Palomo/issues"
   },
-  "homepage": "https://github.com/lucaspalomo93/PreEntrega2Palomo#readme"
+  "homepage": "https://github.com/lucaspalomo93/PreEntrega2Palomo#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
 }
