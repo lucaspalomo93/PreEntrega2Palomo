@@ -1,5 +1,13 @@
 @import '../utilities/variables';
 
+$reservas : "../../images/desayuno-publi.png";
+$menu : "../../images/pizza.png";
+$market : "../../images/mercado.jpg";
+
+.card {
+    width: 40rem;
+}
+
 .card-body {
     a {
         display: block;
@@ -22,6 +30,31 @@
 .card-title {
     display: flex;
     justify-content: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.img-reservas {
+    height: 20rem;
+
+    background-image: url($reservas);
+    background-size: cover;
+}
+
+.img-menu {
+    height: 20rem;
+
+    background-image: url($menu);
+    background-size: cover;
+}
+
+.img-market {
+    height: 20rem;
+
+    background-image: url($market);
+    background-size: cover;
 }
 
 .banner {
