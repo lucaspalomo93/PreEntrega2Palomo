@@ -13,7 +13,7 @@ a:hover {
 }
 
 /* line 7, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
-.card {
+.card-index {
   width: 40rem;
 }
 
@@ -173,7 +173,7 @@ label {
     margin-bottom: 2.5rem;
   }
   /* line 18, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
-  .card {
+  .card-index {
     width: 18rem;
   }
   /* line 22, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
