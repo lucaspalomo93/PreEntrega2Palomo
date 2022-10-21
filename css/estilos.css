@@ -12,7 +12,12 @@ a:hover {
   color: #967E76;
 }
 
-/* line 4, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+/* line 7, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+.card {
+  width: 40rem;
+}
+
+/* line 12, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-body a {
   display: block;
   font-size: 1rem;
@@ -24,19 +29,45 @@ a:hover {
   font-weight: bold;
 }
 
-/* line 15, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+/* line 23, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-body a:hover {
   background-color: #000000;
   color: #eded82;
 }
 
-/* line 22, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+/* line 30, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .card-title {
   display: flex;
   justify-content: center;
 }
 
-/* line 27, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+/* line 35, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+.card-text {
+  text-align: center;
+}
+
+/* line 39, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+.img-reservas {
+  height: 20rem;
+  background-image: url("../../images/desayuno-publi.png");
+  background-size: cover;
+}
+
+/* line 46, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+.img-menu {
+  height: 20rem;
+  background-image: url("../../images/pizza.png");
+  background-size: cover;
+}
+
+/* line 53, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+.img-market {
+  height: 20rem;
+  background-image: url("../../images/mercado.jpg");
+  background-size: cover;
+}
+
+/* line 60, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .banner {
   background-image: url(/images/banner.png);
   background-size: cover;
@@ -44,7 +75,7 @@ a:hover {
   height: 15rem;
 }
 
-/* line 33, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
+/* line 66, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/views/_indexbody.scss */
 .banner h1 {
   font-weight: bold;
   font-size: 4rem;
@@ -140,6 +171,22 @@ label {
     display: flex;
     justify-content: center;
     margin-bottom: 2.5rem;
+  }
+  /* line 18, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
+  .card {
+    width: 18rem;
+  }
+  /* line 22, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
+  .img-reservas {
+    height: 16rem;
+  }
+  /* line 26, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
+  .img-menu {
+    height: 16rem;
+  }
+  /* line 30, ../../Users/lucas/Documents/GitHub/PreEntrega2Palomo/scss/utilities/_mediaqueries.scss */
+  .img-market {
+    height: 16rem;
   }
 }
 
